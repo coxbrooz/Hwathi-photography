@@ -1,0 +1,102 @@
+/* // stylelint-disable value-keyword-case
+font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+// stylelint-enable value-keyword-case
+font-family-base:            var(--#{$prefix}font-sans-serif);
+font-family-code:            var(--#{$prefix}font-monospace);
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+// $font-size-base affects the font size of the body text
+$font-size-root:              null;
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875;
+$font-size-lg:                $font-size-base * 1.25;
+
+$font-weight-lighter:         lighter;
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-medium:          500;
+$font-weight-semibold:        600;
+$font-weight-bold:            700;
+$font-weight-bolder:          bolder;
+
+$font-weight-base:            $font-weight-normal;
+
+$line-height-base:            1.5;
+$line-height-sm:              1.25;
+$line-height-lg:              2;
+
+$h1-font-size:                $font-size-base * 2.5;
+$h2-font-size:                $font-size-base * 2;
+$h3-font-size:                $font-size-base * 1.75;
+$h4-font-size:                $font-size-base * 1.5;
+$h5-font-size:                $font-size-base * 1.25;
+$h6-font-size:                $font-size-base; */
+
+
+body 
+  background-image: url("paper.gif");
+
+
+
+body {
+  background-color: white;
+}
+
+  h1{
+    color: rgb(9, 216, 216);
+    text-align: center;
+    font-size: xx-large;
+  }
+
+  h2{
+    color: rgb(27, 26, 26);
+    font-size: xx-large;
+    text-align: center;
+  }
+
+p1{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: xx-large;
+}
+
+p2{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: xx-large;
+}
+
+p3{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: xx-large;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  img {
+    
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;  /* Optional: soft rounded edges */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);  /* Soft shadow effect */
+  }
+  .center-text {
+    text-align: center;
+  }
+  .center-image {
+    text-align: center;
+  }
+      .samplebutton {
+        background-color: black;
+      
+      }
+       .samplebutton a{
+        text-decoration: none; 
+        color: aliceblue;
+       }
